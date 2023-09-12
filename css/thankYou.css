@@ -1,0 +1,35 @@
+@import './style.css';
+
+.content__thank-you{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.thank__image{
+    margin-top: 15px;
+}
+
+.thank__subtitle{
+    background-color: #2b3541;
+    border-radius: 50px;
+    padding: 8px;
+    margin: 25px 0;
+    color: var(--Orange);
+
+}
+
+.thank__title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.thank__text{
+    margin-bottom: 15px;
+    line-height: 20px;
+    color: var(--Medium-Grey);
+}

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root{
+    /* Colors */
+
+    /* PRIMARY */
+    --Orange: hsl(25, 97%, 53%);
+
+    /* NEUTRAL */
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+
+    /* font */
+    --overpass:'Overpass', sans-serif;
+}
+
+body{
+    background-color: var(--Very-Dark-Blue);
+    color: var(--White);
+    font-size: 15px;
+    font-family: var(--overpass);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.component {
+    background-color: #1a212b;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+/* CONTEÚDO */
+
+.content{
+    padding: 19px;
+}
+
+.content__image{
+    padding: 10px;
+    border-radius: 100%;
+    background-color: var(--Dark-Blue);
+}
+
+.content__title{
+    font-size: 28px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.content__text{
+    color: var(--Light-Grey);
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+/* FORMULÁRIO */
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form__values {
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    margin: 10px 0px;
+}
+
+.value{
+    color: var(--Medium-Grey);
+    background-color: var(--Dark-Blue);
+    border-style: none;
+    border-radius: 60%;
+    padding: 11px 15px;
+}
+
+.form__submit{
+    border-style: none;
+    background-color: var(--Orange);
+    border-radius: 30px;
+    color: var(--White);
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin: 15px 0px; 
+    padding: 15px;
+}
+
+.form__submit:hover{
+    background-color: var(--White);
+    color: var(--Orange);
+}
+
+@media screen and (min-width:400px){
+    .component{
+        width: 40vh;
+    }
+}

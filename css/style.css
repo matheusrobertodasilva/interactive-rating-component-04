@@ -75,11 +75,21 @@ body{
 }
 
 .value{
-    color: var(--Medium-Grey);
     background-color: var(--Dark-Blue);
     border-style: none;
     border-radius: 60%;
+    color: var(--Medium-Grey);
     padding: 11px 15px;
+}
+
+.active{
+    background-color: var(--Medium-Grey);
+    color: var(--White);
+}
+
+.value:hover {
+    background-color: var(--Orange);
+    color: var(--White);
 }
 
 .form__submit{

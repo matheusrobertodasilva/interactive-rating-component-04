@@ -4,3 +4,5 @@ Projeto tirado do site front-end mentor. O projeto foi feito apenas com HTML5,CS
 
 O projeto consiste em um componente que exibe uma avaliação e direciona para uma outra pagina.
 
+##Link 
+https://interactive-rating-component-blush-delta.vercel.app/
